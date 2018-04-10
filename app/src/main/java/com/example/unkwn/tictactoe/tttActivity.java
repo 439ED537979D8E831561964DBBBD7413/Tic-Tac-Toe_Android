@@ -21,7 +21,7 @@ public class tttActivity extends AppCompatActivity {
     }
 
     public void checkWinner(Button b1,Button b2,Button b3){
-        if (b1.getText().equals(b2.getText()) && b2.getText().equals(b3.getText()) && b3.getText().equals("X")){
+        if (b1.getText().equals(b2.getText()) && b2.getText().equals(b3.getText())){
             Toast.makeText(tttActivity.this, String.format("player %s is winner ", turn),Toast.LENGTH_LONG).show();
         }
     }
